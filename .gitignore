@@ -1,0 +1,22 @@
+# Java / Maven (backend build output)
+target/
+*.class
+
+# Node / React (frontend deps and build)
+node_modules/
+frontend/build/
+frontend/dist/
+
+# Environment and secrets
+.env
+*.env
+!.env.example
+
+# IDE and editor
+.idea/
+*.iml
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
